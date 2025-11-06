@@ -1,0 +1,27 @@
+# Cocos Creator 项目忽略文件
+# 不要上传这些文件到 Gitee
+
+# 临时文件
+/temp/
+/library/
+/local/
+/build/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE 文件
+.vscode/
+.idea/
+*.sublime-*
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# 日志文件
+*.log
