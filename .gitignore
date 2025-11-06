@@ -5,7 +5,9 @@
 /temp/
 /library/
 /local/
-/build/
+# 只保留 web-mobile 构建，其他构建文件夹忽略
+/build/*
+!/build/web-mobile/
 
 # 系统文件
 .DS_Store
